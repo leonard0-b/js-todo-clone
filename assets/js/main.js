@@ -13,7 +13,7 @@ $(document).ready(function(){
     // seleziono i figli della lista con classe "title" e scrivo nello span il valore dell'input🐱‍👤
     listItem.children("span.title").text(listVal);
     // lo stampo nella sezione list🐱‍👤
-    $("#list").append(listItem);
+    $("#list").prepend(listItem);
 
     // al click sullo span con classe "elimina"🐱‍👤
     $(".elimina").click(function(){

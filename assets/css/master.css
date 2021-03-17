@@ -9,37 +9,37 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: blue;
 }
 
 h1 {
   font-size: 15px;
+  margin-bottom: 15px;
 }
 
 .content {
-  padding: 20px;
-  height: 200px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
   flex-direction: column;
   height: 100vh;
-  background-color: red;
 }
 
 .banner > img {
   width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px;
 }
 
 .list {
-  background-color: purple;
-  height: 300px;
+  height: 350px;
   overflow-y: auto;
 }
 
 .input {
   justify-content: center;
-  background-color: green;
   position: fixed;
   right: 20px;
   left: 20px;
@@ -52,32 +52,42 @@ button {
   margin-left: 15px;
 }
 
-
 #list li {
   width: 100%;
-  margin: auto;
-  background-color: lightgrey;
+  background-color: #ededed;
   border-radius: 8px;
   padding: 10px 0;
-  position: relative;
-  height: 45px;
+  height: 50px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
-#list-item > li {
-  height: 25px;
+
+
+#input-list {
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  outline: 0;
 }
 
+#input-list:focus {
+  border-bottom: 1px solid #adadad;
+}
 
-
+#add {
+  background-color: #e6e6e6;
+  outline: none;
+  border: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
 .fa-edit {
-  position: absolute;
-  right: 60px;
+  color: #3b95ad;
 }
 
 .fa-minus-circle {
-  position: absolute;
-  right: 40px;
+  color: #c24a4a;
 }
 
 /* utilities */
