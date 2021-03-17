@@ -6,7 +6,7 @@ $(document).ready(function(){
   $("#add").click(function(){
     // mi salvo il valore dell'input🐱‍👤
     var listVal = $("#input-list").val();
-    $("#input-list").val("");
+    $("#input-list").val(""); //ad ogni click il form torna bianco🐱‍👤
     // clono la lista che voglio ripetere🐱‍👤
     var listItem = $("#list-item li").clone();
 
