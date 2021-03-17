@@ -60,11 +60,14 @@ button {
   border-radius: 8px;
   padding: 10px 0;
   position: relative;
+  height: 45px;
 }
 
-.elimina > img {
-  width: 20px;
+#list-item > li {
+  height: 25px;
 }
+
+
 
 
 .fa-edit {
