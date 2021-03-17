@@ -2,12 +2,21 @@
 // Rendiamo il tutto gradevole alla vista.
 $(document).ready(function(){
   $("#add").click(function(){
-  var listVal = $("#input-list").val();
-  var listItem = $("#list-item li").clone();
+    var listVal = $("#input-list").val();
+    var listItem = $("#list-item li").clone();
 
-  listItem.children().text(listVal);
+    listItem.children("span.title").text(listVal);
+    $("#list").append(listItem);
 
   })
+
+
+
+
+
+
+
+
 
 
 })
