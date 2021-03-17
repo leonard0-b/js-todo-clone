@@ -8,7 +8,11 @@ $(document).ready(function(){
     listItem.children("span.title").text(listVal);
     $("#list").append(listItem);
 
+    $(".elimina").click(function(){
+      $(this).parent().remove();
+    })
   })
+
 
 
 
