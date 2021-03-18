@@ -63,7 +63,15 @@ button {
   align-items: center;
 }
 
+#list > li > span.title {
+  flex-grow: 2;
+}
 
+.edit {
+  border: 0;
+  background-color: #ededed;
+  border-bottom: 1px solid #12465b;
+}
 
 #input-list {
   border: 0;
@@ -88,6 +96,7 @@ button {
 
 .fa-minus-circle {
   color: #d8574a;
+  margin-right: 15px;
 }
 
 .footer {
