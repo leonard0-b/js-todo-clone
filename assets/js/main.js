@@ -29,7 +29,6 @@ $(document).ready(function(){
       $(this).siblings(".title").hide();
       // il form prende il valore da modificare🐱‍👤
       $(this).siblings(".edit").val(listVal);
-
   })
 
     // dopo la modifica premendo invio la modifica è ultimata🐱‍👤

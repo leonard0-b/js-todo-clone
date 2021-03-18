@@ -68,9 +68,15 @@ button {
 }
 
 .edit {
+  flex-grow: 2;
+  margin: 0 10px;
   border: 0;
   background-color: #ededed;
   border-bottom: 1px solid #12465b;
+}
+
+.edit:focus {
+  outline: none;
 }
 
 #input-list {
